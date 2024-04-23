@@ -1,0 +1,130 @@
+
+.cssPopUpWindows{ 
+	background-color:#F0DCDC; 
+    color:#000000; 
+}
+.cssmenu:link, .cssmenu:visited, .cssmenu:active{ 
+	font-weight:bold; 
+    color:#FFFFFF; 
+    text-decoration:none; 
+}
+.cssmenu:hover{ 
+	font-weight:bold; 
+    color:#FFFF80; 
+    text-decoration:none; 
+}
+.cssmenu2:link, .cssmenu2:visited, .cssmenu2:active{ 
+	font-weight:bold; 
+    color:#008000; 
+    text-decoration:none; 
+}
+.cssmenu2:hover{ 
+	font-weight:bold; 
+    color:#000000; 
+    text-decoration:none; 
+}
+.cssmenu3:link, .cssmenu3:visited, .cssmenu3:active{ 
+	font-weight:bold; 
+    color:#8C1ED2; 
+    text-decoration:none; 
+}
+.cssmenu3:hover{ 
+	font-weight:bold; 
+    color:#4040FF; 
+    text-decoration:none; 
+}
+.csslink:link, .csslink:visited, .csslink:active{ 
+	font-weight:bold; 
+    color:#4040FF; 
+    text-decoration:none; 
+}
+.csslink:hover{ 
+	font-weight:bold; 
+    color:#151589; 
+    text-decoration:none; 
+}
+.csslink2:link, .csslink2:visited, .csslink2:active{ 
+	font-weight:bold; 
+    color:#095756; 
+    text-decoration:none; 
+}
+.csslink2:hover{ 
+	font-weight:bold; 
+    color:#2DD7D5; 
+    text-decoration:none; 
+}
+.cssTable{ 
+	margin:3px; width:73%; 
+    font-size:13px; 
+    background-color:#FCF8FC; 
+    border:solid 1px #6E6B6E; 
+}
+.cssTitle{ 
+	background-color:#635C63; 
+    font-weight:bold; 
+    color:#FFFFFF; 
+    text-align:center; 
+}
+.cssContent{ 
+	background-color:#E3E3E3; 
+}
+.cssMainTable{ 
+	font-size:13px; 
+    background-color:#FCF8FC; 
+}
+.cssMainTitle{ 
+	background-color:#3F3F79; 
+    font-weight:bold; 
+    color:#FFFFFF; 
+    text-align:center; 
+}
+.cssMainContent{ 
+	background-color:#CBCBE7; 
+    color:#000000; 
+    font-weight:bold;
+}
+.cssSubTitle{ 
+	background-color:#DCBABA; 
+    font-weight:bold; 
+    color:#544A4A; 
+    text-align:center; 
+}
+.cssSubTitle2{ 
+	background-color:#DCBABA; 
+    font-weight:bold; 
+    color:#544A4A; 
+    text-align:right; 
+}
+.cssSubTable{ 
+	width:100%; 
+    font-size:13px; 
+    background-color:#FCF8FC; 
+    border:solid 1px #6E6B6E;
+}
+.cssSubContent{ 
+	background-color:#F0DCDC; 
+    color:#000000;
+}
+.cssLeftTable{ 
+	margin:3px; width:100%; 
+    font-size:13px; 
+    background-color:#E7F0FE; 
+    border:solid 1px #415e8d; 
+}
+.cssLeftTitle{ 
+	background-color:#415E8D; 
+    font-weight:bold; color:#FFFFFF; 
+    text-align:center; 
+}
+.cssLeftContent{ 
+	background-color:#D4E3FB; 
+    color:#000000; 
+}
+.cssFontMsg{ 
+	font-weight:bold; 
+    color:#FF0000; 
+}
+span{ 
+	font-weight:bold; 
+    color:#FF0000; 
+}
