@@ -1,16 +1,20 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+
+    <title>Hello, world!</title>
     <!-- เรียกใช้ไฟล์สไตล์ชีท -->
-    <link href="css/chat_style.css" rel="stylesheet" type="text/css" />
-    <link href="css/content_style.css" rel="stylesheet" type="text/css" />
-    <link href="css/layout_style.css" rel="stylesheet" type="text/css" />
-    <link href="css/menbar_style.css" rel="stylesheet" type="text/css" />
-    <link href="css/newspr_style.css" rel="stylesheet" type="text/css" />
-    <link href="css/tab_style.css" rel="stylesheet" type="text/css" />
-    <link href="css/feedrs_style.css" rel="stylesheet" type="text/css" />
+    
+    <link rel="stylesheet" href="css/Template.css">
+    <link rel="stylesheet" href="css/carousel.css">
+
+
     <!-- เรียกใช้ไฟล์ JavaScript -->
     <script src="includes/all_control.js" type="text/javascript"></script>
     <script src="includes/member_control.js" type="text/javascript"></script>
@@ -18,26 +22,174 @@
     <script src="includes/blog_control.js" type="text/javascript"></script>
     <script src="includes/learning_control.js" type="text/javascript"></script>
     <script src="includes/chat_control.js" type="text/javascript"></script>
-    <title>DMSeLearning</title>
-</head>
+  </head>
+  <body>
+  <header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="index.php">eLearning</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">สมัครสมาชิก</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">บล็อก</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ติดต่อเรา</a>
+        </li>
+      </ul>
+      <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+</header>
 
-<body>
-    <div id="container">
-        <!-- โลโก้และป้ายโฆษณาเว็บไซต์ -->
-        <div id="divHeader"><img src="images/head.jpg" width="100%" height="67" /></div>
-        <div id="divMenuBar" class="hzmenu"></div> <!-- เมนูหลัก -->
-        <div id="sidebar">
-            <div id="divMember"></div> <!-- สมัครสมาชิก -->
-            <div id="divNewsRSS"></div> <!--- รายการหมวดข่าวทันเหตุการณ์ -->
-            <div id="divBlogHit"></div> <!--- รายการบทความที่น่าสนใจ -->
+<main role="main">
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"> </text></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-left">
+            <h1>Example headline.</h1>
+            <p>Some representative placeholder content for the first slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+          </div>
         </div>
-        <div id="mainContent">
-            <div id="divNewsPR"></div> <!-- รายการข่าวประชาสัมพันธ์ -->
-            <div id="divContent"></div> <!-- ส่วนแสดงเนื้อหา -->
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"> </text></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Some representative placeholder content for the second slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
         </div>
-        <br class="clearfloat" />
-        <div id="footer">
-            <p>&copy;
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"> </text></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-right">
+            <h1>One more for good measure.</h1>
+            <p>Some representative placeholder content for the third slide of this carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#myCarousel" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#myCarousel" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Heading</h2>
+        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Heading</h2>
+        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Heading</h2>
+        <p>And lastly this, the third column of representative placeholder content.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+    <hr class="featurette-divider">
+
+<!-- /END THE FEATURETTES -->
+
+</div><!-- /.container -->
+
+
+<!-- FOOTER -->
+<footer class="container">
+<p class="float-right"><a href="#">Back to top</a></p>
+<p class="text-center">&copy;                 
                 <?php
                 $startYear = 2023;
                 $thisYear = idate('Y');
@@ -46,10 +198,17 @@
                 } else {
                     echo "$startYear-$thisYear";
                 }
-                ?>
-            </p>
-        </div>
-    </div>
-</body>
+                ?> &middot; <a href="#">Privacy</a> &middot; 
+                <a href="#">Terms</a></p>
+</footer>
+</main>
 
+
+
+
+    <script src="bootstrap/js/jquery.slim.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+   
+  </body>
 </html>
